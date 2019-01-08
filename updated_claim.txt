@@ -1,0 +1,12 @@
+
+SQL> desc claim;
+ Name                                                                                                      Null?    Type
+ ----------------------------------------------------------------------------------------------------------------- -------- ----------------------------------------------------------------------------
+ CLAIM_NUMBER                                                                                              NOT NULL VARCHAR2(10)
+ CLAIM_REASON                                                                                                       VARCHAR2(30)
+ ACCIDENT_LOCATION_STREET                                                                                           VARCHAR2(40)
+ ACCIDENT_CITY                                                                                                      VARCHAR2(15)
+ ACCIDENT_STATE                                                                                                     VARCHAR2(15)
+ ACCIDENT_ZIP                                                                                                       VARCHAR2(6)
+ CLAIM_TYPE                                                                                                         VARCHAR2(30)
+ POLICY_NUMBER                                                                                                      NUMBER(10)
